@@ -1,0 +1,12 @@
+.transactions {
+    display: grid;
+    place-items: center;
+}
+
+.transactions__info {
+    color: rgb(130, 130, 130);
+}
+
+.transactions__info > p {
+    margin: 10px 0;
+}

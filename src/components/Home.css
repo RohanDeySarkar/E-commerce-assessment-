@@ -1,0 +1,10 @@
+.home {
+    /* padding: 20px; */
+}
+
+.home__cards {
+    background-color: rgb(165, 77, 247);
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}

@@ -1,0 +1,40 @@
+.cardRow {
+    flex: 1;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.cardRow > img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.cardRow__info {
+    display: grid;
+    place-items: center;
+}
+
+.cardRow__info > p {
+    margin: 5px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.cardRow__info > button {
+    margin-top: 10px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+}
+
+.cardRow__info > button:hover {
+    background-color: rgb(197, 197, 197);
+    color: black;
+}

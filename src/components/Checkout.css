@@ -1,0 +1,34 @@
+.checkout {
+    height: 310px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.checkout > img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.checkout__info > p {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.checkout__info > button {
+    margin-top: 10px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.checkout__info > button:hover {
+    background-color: rgb(197, 197, 197);
+    color: black;
+}
